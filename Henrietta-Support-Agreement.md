@@ -28,7 +28,12 @@ We also provide:
 - A solenoid circuit to help fill the instrument.
 
 In the office:
-- One mac mini computer running all software. TBC - Will the Mac Mini go in the Computing Rack, or in the observing room? If it goes into the rack, do we need to bring a shelf? (For Lionel + William)
+- One mac mini computer running all software. TBC - Will the Mac Mini go in the Computing Rack, or in the observing room? If it goes into the rack, do we need to bring a shelf? (For Lionel + William). The Mac Mini will connect via No Machine to the Observing Workstation.
+- Software provided
+  - Rotator control
+  - Instrument control
+  - Does Swope have the ability to use Observing Catalog Format? If not, it should. (TBC - William / Christoph)
+  - Hardhats for the Galil, Lakeshore, DLI, and Archon
 
 
 # Service Requirements
@@ -42,7 +47,7 @@ In the office:
   - Compressed air
   -   Clean air suitable for pneumatics
   -   Clean, dry air for keeping front window dry
-- Liquid Nitrong
+- Liquid Nitrogen
   - ~22 psi liquid nitrogen for filling
 
 # Routine Support
