@@ -28,11 +28,11 @@ We also provide:
 - A solenoid circuit to help fill the instrument.
 
 In the office:
-- One mac computer running all software.
+- One mac mini computer running all software. TBC - Will the Mac Mini go in the Computing Rack, or in the observing room? If it goes into the rack, do we need to bring a shelf? (For Lionel + William)
 
 
 # Service Requirements
-- Power
+- Power on the Telescope
   - 235 W of 110 V AC power, "clean" with UPS Backup. Our power usage is based on the total power that the instruments could use.
     - Archon: 100 W
     - Lakeshore: 100 W
