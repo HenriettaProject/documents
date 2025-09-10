@@ -2,11 +2,11 @@ Instrument Support Agreement for Henrietta
 
 
 # Instrument Description
-Henreitta is an installable instrument for the Swope f/7 back focus. It uses the observatory guider package for guiding. Henrietta comes with its own instrument rotator. It is kept cold via liquid nitrogen (LN2) with a large tank internal to the instrument. It contains a variety of electronics (Lakeshore, Galil, ethernet hub, and Archons) to run the instrument. A Mac is used to control Henrietta.
+Henrietta is an installable instrument for the Swope f/7 back focus. It uses the observatory guider package for guiding. Henrietta comes with its own instrument rotator. It is kept cold via liquid nitrogen (LN2) with a large tank internal to the instrument. It contains a variety of electronics (Lakeshore, Galil, ethernet hub, and Archons) to run the instrument. A Mac is used to control Henrietta.
 
 The Henrietta Instrument Team is led by Nick Konidaris at Carnegie Observatories, and he's the primary contact. 
 
-We intend for Henrietta to be a facility instrument on Swope. 
+We intend for Henrietta to be a facility instrument on Swope. To us, a facility instrument means that the LCO team can pump, cool, install, remove, and warm up the instrument without any help. User support will be provided via web pages and a best effort by Nick and Jason.
 
 
 # Configuration
@@ -38,12 +38,11 @@ We also provide:
 - A solenoid circuit to help fill the instrument.
 
 In the office:
-- One mac mini computer running all software. TBC - Will the Mac Mini go in the Computing Rack, or in the observing room? If it goes into the rack, do we need to bring a shelf? (For Lionel + William). The Mac Mini will connect via No Machine to the Observing Workstation.
+- One mac mini computer running all software. TBC - We believe the Mac should go in the comptuer rack. If it goes into the rack, do we need to bring a shelf? (For Lionel + William). The Mac Mini will connect via No Machine to the Observing Workstation.
 - Software provided
   - Rotator control
   - Instrument control
-  - Does Swope have the ability to use Observing Catalog Format? If not, it should. (TBC - William / Christoph)
-  - Hardhats for the Galil, Lakeshore, DLI, and Archon
+  - Engineering team GUIs for the Galil, Lakeshore, DLI, and Archon. We expect most typical observers will not use these.
 
 
 # Service Requirements
@@ -61,7 +60,7 @@ In the office:
   - ~22 psi liquid nitrogen for filling
   - ~25 L of LN2 per day (we hope to get this down by minimizing losses)
 - Clean Room
-  - Occassionally Henreitta may need to go the ASB's Clean Room for either maintenance or to chagne out filters. 
+  - Occassionally Henrietta may need to go the ASB's Clean Room for either maintenance or to chagne out filters. 
 
 # Routine Support
 
@@ -70,15 +69,15 @@ In the office:
     - We request daily fills of LN2 in the morning. 
   - When observers are using Henrietta
     - typical support for the telescope. Staff should monitor for any major issues. Staff will have enough knowledge of engineering "hard hats" to do lightweight debugging and restartin of servers.
-  - When Henreitta is in storage
-    - We request that Henreitta stored with a thick tarp cover. In that configuration, nothing should happen to Henrietta. Maybe occassional dusting is requested.
+  - When Henrietta is in storage
+    - We request that Henrietta stored with a thick tarp cover. In that configuration, nothing should happen to Henrietta. Maybe occassional dusting is requested.
   - Replacement of the pumping station tip seal- if LCO is capable, we request yearly replacement of the tip seal, or when we see insuficient backing pressure.
 
 - Routine Instrument Changes
   - We'll work with the LCO staff to optimzie the process as per any requests. Our suggestion is the following:
   - Pumping
     - A turbo pumping station will be provided. The station will come with various bellows that can be attached using typical KF-50 fittings.
-    - Henreitta will require two days of pumping before cooling. The instrument's pressure can be monitored via grafana.
+    - Henrietta will require two days of pumping before cooling. The instrument's pressure can be monitored via grafana.
   - Cooling
     - Cooling is a bit more complicated. Once the dewar is at the appropriate pressure, LCO staff will run a script to dose LN2 in a pre-prescribed fashion (fill for 20 s every few minutes.) Because Solenoid valves can fail open, we request that the temperature cooldown be monitored for a valve failure. Note, the script will only run during a reasonable local time (9:30a - 4:30p?). Before starting the script the next morning, we request a one-hour pump down.
   - Power up
@@ -101,6 +100,8 @@ In the office:
 
 # Support Provided by the Instrument TEam
 
+Report issues by urgency. If the issue is not urgent, simply submit a Jira ticket. Nick and Jason will see the issue. If the issue is urgent, please call Nick or Jason depending on the severity. If there is an emergency with the cryovac system, Henrietta will warm up on its own. If the safety of people or the instrument is at stake, and we are not available, please use best judgement.
+
 - Point of contact: Nick Konidaris (npk@carnegiescience.edu)
 - Mailing list: henrietta@mailman.carnegiescience.edu
 - Remote help provided: Complete manual for the instrument
@@ -112,7 +113,7 @@ In the office:
 
 
 # Handling and Storage Fixtures
-- Description: The Henrietta handling cart is already at LCO. Henreitta will be shipped with all necessary straps and bolts to be handled. The cart will be used to store Henrietta.
+- Description: The Henrietta handling cart is already at LCO. Henrietta will be shipped with all necessary straps and bolts to be handled. The cart will be used to store Henrietta.
 - We request that a cover be made for Henrietta.
 
 
