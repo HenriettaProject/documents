@@ -13,7 +13,16 @@ We intend for Henrietta to be a facility instrument on Swope.
 
 The port is the Swope back focus f/7, attached to the guider package. No changes to baffles or sub-aperture corrector are needed. Henrietta uses the standard Swope Guiding package. A series of documents and estimates was written to generate a counterweight plan, and swapping between the CCD camera and Henrietta should be straightforward.
 
-Henrietta is about 800 lbs, and maybe about 1 meter long.
+Summary
+- Back (f/7) focus of Swope, including the corrector and guider package.
+- Telescopes baffles same as CCD Camera configuration (what is this called)?
+- Henrietta botls to the Swope facility guiding package
+- Instrument Size and Mass
+  - Henrietta rotator is 200 lbs
+  - Henrietta instrument is 735 lbs
+  - Henrietta cart is 246 lbs
+  - (Henrietta dummy, without weights is 220 lbs)
+
 
 The equipment on Henrietta includes:
 - Lakeshore Cryogenic Temperature Controller
