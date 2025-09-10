@@ -15,8 +15,8 @@ The port is the Swope back focus f/7, attached to the guider package. No changes
 
 Summary
 - Back (f/7) focus of Swope, including the corrector and guider package.
-- Telescopes baffles same as CCD Camera configuration (what is this called)?
-- Henrietta botls to the Swope facility guiding package
+- Telescopes baffles same as CCD Camera configuration (need a name from LCO for this baffle configuration)
+- Henrietta bolts to the Swope facility guiding package
 - Instrument Size and Mass
   - Henrietta rotator is 200 lbs
   - Henrietta instrument is 735 lbs including electronics
