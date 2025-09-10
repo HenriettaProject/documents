@@ -11,7 +11,7 @@ We intend for Henrietta to be a facility instrument on Swope. To us, a facility 
 
 # Configuration
 
-The port is the Swope back focus f/7, attached to the guider package. No changes to baffles or sub-aperture corrector are needed. Henrietta uses the standard Swope Guiding package. A series of documents and estimates was written to generate a counterweight plan, and swapping between the CCD camera and Henrietta should be straightforward.
+The port is the Swope back focus f/7, attached to the guider package. No changes to baffles or sub-aperture corrector are needed. Henrietta uses the standard Swope Guiding package. Based on a prior analysis, we believe the Swope CCD camera and Henrietta can be exchanged without touching the counterweights at the top of the telescope. 
 
 Summary
 - Back (f/7) focus of Swope, including the corrector and guider package.
@@ -106,6 +106,11 @@ Report issues by urgency. If the issue is not urgent, simply submit a Jira ticke
 - Mailing list: henrietta@mailman.carnegiescience.edu
 - Remote help provided: Complete manual for the instrument
 - Nick Konidaris and Jason Williams will be travelling to the observatory often, and we're happy to chat with the LCO team!
+
+## Documentation
+The control software will be documented in GitHub, and we will maintain the Technical Manual on google docs. We will maintain a change log for the technical manual using the google docs "version name" and "history" features. If Henrietta becomes a facility instrument, and as a precondition for this, we will generate and maintain a user manual.
+
+The data reduction pipeline is already documented using readthedocs. 
 
 ## Training
 - Nick and Jason will provide support and training as needed.
