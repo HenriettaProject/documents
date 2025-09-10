@@ -19,9 +19,10 @@ Summary
 - Henrietta botls to the Swope facility guiding package
 - Instrument Size and Mass
   - Henrietta rotator is 200 lbs
-  - Henrietta instrument is 735 lbs
+  - Henrietta instrument is 735 lbs including electronics
   - Henrietta cart is 246 lbs
   - (Henrietta dummy, without weights is 220 lbs)
+- Henrietta is also shipped with an Agilent Vacuum Pumping Station.
 
 
 The equipment on Henrietta includes:
@@ -51,13 +52,16 @@ In the office:
     - Archon: 100 W
     - Lakeshore: 100 W
     - Galil: 16 W (TBC)
-    - Network switch: 15 W (TBC)
+    - GigE Network switch: 15 W (TBC)
     - DLI: 4 W
   - Compressed air
   -   Clean air suitable for pneumatics
   -   Clean, dry air for keeping front window dry
 - Liquid Nitrogen
   - ~22 psi liquid nitrogen for filling
+  - ~25 L of LN2 per day (we hope to get this down by minimizing losses)
+- Clean Room
+  - Occassionally Henreitta may need to go the ASB's Clean Room for either maintenance or to chagne out filters. 
 
 # Routine Support
 
